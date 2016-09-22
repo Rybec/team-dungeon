@@ -2,11 +2,16 @@
 An attempt to make Minecraft more cooperative, in the way that Terraria is.
 
 Priorities
+
 1. Magic mirror that takes character to spawn (bed if the player has one, world spawn otherwise).
 2. Something that brings a character to another character (like wormhole potion in Terraria).
+
 3. Better NPCs (villagers).
+
 4. Events (zombie invasions, skeleton invasions, if we are masochists, creeper invasions, etc...)
+
 5. Dungeons
+
 6. Bosses
 
 Ideas
