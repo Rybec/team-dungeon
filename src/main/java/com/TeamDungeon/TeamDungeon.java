@@ -3,8 +3,10 @@ package com.teamdungeon;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
-import net.minecraftforge.fml.common.event.FMLPostInitilizationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+
+import com.teamdungeon.proxy.CommonProxy;
 
 @Mod(modid = TeamDungeon.modId, name = TeamDungeon.name, version = TeamDungeon.version, acceptedMinecraftVersions="[1.10.2]")
 public class TeamDungeon {

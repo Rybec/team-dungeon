@@ -1,4 +1,4 @@
-package com.teamdungeon.proxy
+package com.teamdungeon.proxy;
 
 public class CommonProxy {
 
