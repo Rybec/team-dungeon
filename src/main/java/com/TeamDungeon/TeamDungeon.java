@@ -11,18 +11,18 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 
 @Mod(modid = TeamDungeon.MODID, name = TeamDungeon.MODNAME, version = TeamDungeon.VERSION)
 public class TeamDungeon {
-    public static final String MODID = "teamdungeon";
+	public static final String MODID = "teamdungeon";
 	public static final String MODNAME = "Team Dungeon";
-    public static final String VERSION = "0.0";
+	public static final String VERSION = "0.0";
 
-	@SidedProxy(clientSide="teamdungeon.ClientProxy", serverSide="teamdungeon.ServerProxy")
+	@SidedProxy(clientSide="com.teamdungeon.ClientProxy", serverSide="com.teamdungeon.ServerProxy")
 	public static CommonProxy proxy;
 
 	@Instance
 	public static TeamDungeon instance = new TeamDungeon();
 
 	@EventHandler
-    public void preInit(FMLPreInitializationEvent e) {
+	public void preInit(FMLPreInitializationEvent e) {
 		this.proxy.preInit(e);
 	}
 
@@ -30,10 +30,10 @@ public class TeamDungeon {
     public void init(FMLInitializationEvent e) {
 		this.proxy.init(e);
 //		MinecraftForge.EVENT_BUS.register(new Events());
-    }
+	}
 
 	@EventHandler
-    public void postInit(FMLPostInitializationEvent e) {
+	public void postInit(FMLPostInitializationEvent e) {
 		this.proxy.postInit(e);
 	}
 }

@@ -9,11 +9,8 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import com.teamdungeon.blocks.ModBlocks;
 
 public class ModCrafting {
-	
-	
+
 	public static void initCrafting() {
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.small_cobblestone_pack), new Object[] {"###", "###", "###", '#', Blocks.COBBLESTONE});
-
 	}
-	
 }
