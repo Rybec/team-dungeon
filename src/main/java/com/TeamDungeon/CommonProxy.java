@@ -9,16 +9,16 @@ import com.teamdungeon.blocks.ModBlocks;
 import com.teamdungeon.crafting.ModCrafting;
 
 public class CommonProxy {
-    public void preInit(FMLPreInitializationEvent event) {
+	public void preInit(FMLPreInitializationEvent event) {
 		ModItems.createItems();
 		ModBlocks.createBlocks();
 	}
-	
-    public void init(FMLInitializationEvent event) {
+
+	public void init(FMLInitializationEvent event) {
 		ModCrafting.initCrafting();
-    }
-	
-    public void postInit(FMLPostInitializationEvent event) {
 	}
-	
+
+	public void postInit(FMLPostInitializationEvent event) {
+	}
+
 }
