@@ -1,3 +1,5 @@
+all: compile
+
 compile:
 	./gradlew build
 
