@@ -17,11 +17,6 @@ out
 build
 .gradle
 
-#other
+# other
 eclipse
 run
-**.swp
-**.swo
-.syntastic_javac_config
-workbench.xml
-

@@ -7,6 +7,8 @@ set noexpandtab
 set path=$PWD/src/**
 set wildignore+=*.so,*.swp,*.class,build
 
+set backspace=indent,eol,start
+
 noremap <localleader>i :JavaImport<cr>
 noremap <leader>d :JavaDocSearch -x declarations<cr>
 noremap <cr> :JavaSearchContext<cr>
