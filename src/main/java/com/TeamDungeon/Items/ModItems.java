@@ -8,7 +8,7 @@ public final class ModItems {
 	public static Item roundMirror;
 
 	public static void createItems() {
-		GameRegistry.registerItem(handMirror = new HandMirror(), "hand_mirror");
+//		GameRegistry.registerItem(handMirror = new HandMirror(), "hand_mirror");
 		GameRegistry.registerItem(roundMirror = new RoundMirror(), "round_mirror");
 	}
 }
