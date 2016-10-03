@@ -26,8 +26,8 @@ public class TeamDungeon {
 		this.proxy.preInit(e);
 	}
 
-    @EventHandler
-    public void init(FMLInitializationEvent e) {
+	@EventHandler
+	public void init(FMLInitializationEvent e) {
 		this.proxy.init(e);
 //		MinecraftForge.EVENT_BUS.register(new Events());
 	}

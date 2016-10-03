@@ -15,6 +15,7 @@ public final class ItemRenderRegister {
 	}
 
 	public static void registerItems() {
-		// reg(ModItems.spanner);
+		reg(ModItems.handMirror);
+		reg(ModItems.roundMirror);
 	}
 }
